@@ -1,0 +1,43 @@
+
+.card {
+  height: 300px;
+  width: 200px;
+  box-shadow:1px 1px 50px grey;
+  transition: 0.3s;
+  margin-left: 45%;
+  margin-top: 10%;
+  background-color: lightcoral;
+   
+}
+
+.imgCard{
+  height: 50%;
+  width: 100%;
+  background-image: url("/images/ChocolateChip.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+
+}
+
+ .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(122, 113, 113, 0.2);
+} 
+
+.txt {
+  text-align: center;  
+  color: white;
+  font-weight: bold;
+
+}
+
+.info{
+  font-size: 10px ;
+  text-align: left;
+
+}
+
+.links{
+  font-size: 8px;
+
+
+}
